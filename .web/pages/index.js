@@ -19,6 +19,7 @@ export default function Component() {
   {`document.documentElement.lang='es'`}
 </Script>
   <HStack sx={{"position": "sticky", "bg": "#171F26", "paddingX": "2em", "paddingY": "1em", "zIndex": "999", "top": "0"}}>
+  <Avatar name={`Edward Trinidad`} src={`avatar.png`} sx={{"color": "#C3C7CB", "bg": "#171F26", "padding": "2px", "border": "2px", "borderColor": "#14A1F0"}}/>
   <Box sx={{"fontFamily": "Comfortaa", "fontWeight": "500", "fontSize": "1.5em", "image": "avatar.png"}}>
   <Text as={`span`} sx={{"color": "#14A1F0"}}>
   {`Edward`}
